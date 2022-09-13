@@ -14,8 +14,9 @@ let aggressiveM = 0;
 let calmO = 0;
 let nervousOver40 = 0;
 let calmUnder18 = 0;
+let i = 0;
 
-for(let i=0;i<150;i++){
+while(i<150){
     const ageText = prompt('Age: ');
     const age = Number(ageText);
     const sexText = prompt('Sex:\n\n1 - Female\n2 - Male\n3 - Others');
@@ -47,6 +48,8 @@ for(let i=0;i<150;i++){
             }
             break;
     }
+
+    i++;
 }
 
 document.write(`
