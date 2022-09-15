@@ -42,7 +42,7 @@ while(i<150){
                 nervousOver40++;
             }
             break;
-        case 3: //aggressiva
+        case 3: //aggressive
             if(sex==2){
                 aggressiveM++;
             }
